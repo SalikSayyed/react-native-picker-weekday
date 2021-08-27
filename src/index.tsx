@@ -8,9 +8,10 @@ interface Props {
   textColor?:string
   inactiveColor?:string
   wrapperStyles?: any
+  dayTextStyle?:any
   itemStyles?:any
 }
-export const DayPicker :React.FC<Props> = ({ weekdays, setWeekdays,textColor,activeColor,inactiveColor,wrapperStyles,itemStyles }: Props) =>{
+export const DayPicker :React.FC<Props> = ({ weekdays, setWeekdays,dayTextStyle,textColor,activeColor,inactiveColor,wrapperStyles,itemStyles }: Props) =>{
   function daysIO(v: number) {
     if (weekdays.includes(v)) {
       const weekdayRemoved = weekdays.filter((element) => element !== v)
@@ -34,7 +35,7 @@ export const DayPicker :React.FC<Props> = ({ weekdays, setWeekdays,textColor,act
               { backgroundColor: weekdays.includes(index + 1) ? acColor : icColor },
             ]}
           >
-            <Text style={{ color: tColor }}>{value}</Text>
+            <Text style={[{ color: tColor },dayTextStyle]}>{value}</Text>
           </View>
         </TouchableOpacity>
       ))}

@@ -1,6 +1,6 @@
 # WeekDay Picker
 
-## Super Simple Component for Picking Weekday .
+## Simple Customizable Weekday Picker for react native .
 
 - _Steps to use_
   - npm i weekday-picker
@@ -19,7 +19,16 @@ const SampleApp = () => {
       textColor='white'
       inactiveColor='grey'
     />
-    // optional parameters wrapperStyle={Styles.weekdayContainer} itemStyle={Styles.dayContainerStyle}/>
+
+    /*
+    optional parameters include
+    dayTextStyle - All styles applicable to text component
+    itemStyles - All Styles applicable to View component
+    wrapperStyles - All Styles applicable to View component
+
+    This gives high flexibility over Visiblity and Styling of this component.
+
+    */
   )
 }
 ```

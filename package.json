@@ -1,7 +1,7 @@
 {
   "name": "weekday-picker",
-  "version": "1.0.4",
-  "description": "A Simple lightweight Weekday Picker for React Native.",
+  "version": "1.0.7",
+  "description": " Simple, Customizable Weekday Picker for react native .",
   "homepage": "https://github.com/SalikSayyed/weekday-picker",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
