@@ -8,7 +8,7 @@
 ```js
 import * as React from 'react'
 import { StyleSheet } from 'react-native'
-import { DayPicker } from 'react-native-weekday-picker'
+import { DayPicker } from 'react-native-picker-weekday'
 const SampleApp = () => {
   const [weekdays, setWeekdays] = React.useState([-1])
   return (
