@@ -1,9 +1,9 @@
 # WeekDay Picker
 
-## Simple Customizable Weekday Picker for react native .
+## Simple Customizable Weekday Picker for react native and Expo.
 
 - _Steps to use_
-  - npm i weekday-picker
+  - npm i react-native-picker-weekday
 
 ```js
 import * as React from 'react'
