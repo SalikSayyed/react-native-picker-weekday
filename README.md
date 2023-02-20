@@ -18,17 +18,10 @@ const SampleApp = () => {
       activeColor='violet'
       textColor='white'
       inactiveColor='grey'
+      dayTextStyle = {{/*All styles applicable to text component*/}}  //(optional for high styling flexiblity)
+      itemStyles ={{/*All Styles applicable to View component*/}}     //(optional for high styling flexiblity)
+      wrapperStyles ={{/*All Styles applicable to View component*/}}  // (optional for high styling flexiblity)  
     />
-
-    /*
-    optional parameters include
-    dayTextStyle - All styles applicable to text component
-    itemStyles - All Styles applicable to View component
-    wrapperStyles - All Styles applicable to View component
-
-    This gives high flexibility over Visiblity and Styling of this component.
-
-    */
   )
 }
 ```
